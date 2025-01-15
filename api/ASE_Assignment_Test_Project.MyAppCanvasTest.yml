@@ -1,0 +1,1149 @@
+### YamlMime:ManagedReference
+items:
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest
+  commentId: T:ASE_Assignment_Test_Project.MyAppCanvasTest
+  id: MyAppCanvasTest
+  parent: ASE_Assignment_Test_Project
+  children:
+  - ASE_Assignment_Test_Project.MyAppCanvasTest.DrawTo_ShouldThrowException_WhenGraphicsContextIsNull
+  - ASE_Assignment_Test_Project.MyAppCanvasTest.SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid
+  - ASE_Assignment_Test_Project.MyAppCanvasTest.SetUp
+  - ASE_Assignment_Test_Project.MyAppCanvasTest.TestBoundaryPenPosition
+  - ASE_Assignment_Test_Project.MyAppCanvasTest.TestCircleExceedsCanvas
+  - ASE_Assignment_Test_Project.MyAppCanvasTest.TestCustomCanvasSizeInitialization
+  - ASE_Assignment_Test_Project.MyAppCanvasTest.TestDefaultConstructor
+  - ASE_Assignment_Test_Project.MyAppCanvasTest.TestDrawCircleInvalidRadius
+  - ASE_Assignment_Test_Project.MyAppCanvasTest.TestDrawCircleValid
+  - ASE_Assignment_Test_Project.MyAppCanvasTest.TestExceedMaximumCanvasSize
+  - ASE_Assignment_Test_Project.MyAppCanvasTest.TestInvalidCanvasSize_ShouldThrowCanvasException
+  - ASE_Assignment_Test_Project.MyAppCanvasTest.TestResetCanvas
+  - ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenColorValid
+  - ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenPositionInvalid
+  - ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenPositionValid
+  - ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenSizeInvalid
+  - ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenSizeValid
+  - ASE_Assignment_Test_Project.MyAppCanvasTest.TestToggleShapeFilling
+  - ASE_Assignment_Test_Project.MyAppCanvasTest.canvas
+  langs:
+  - csharp
+  - vb
+  name: MyAppCanvasTest
+  nameWithType: MyAppCanvasTest
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest
+  type: Class
+  source:
+    remote:
+      path: ASE_Sumit_Kasula_77356748/ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SUMITKASULA.git
+    id: MyAppCanvasTest
+    path: ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+    startLine: 14
+  assemblies:
+  - ASE-Assignment-Test-Project
+  namespace: ASE_Assignment_Test_Project
+  summary: Unit tests for the AppCanvas class.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public sealed class MyAppCanvasTest
+    content.vb: >-
+      <TestClass>
+
+      Public NotInheritable Class MyAppCanvasTest
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.canvas
+  commentId: F:ASE_Assignment_Test_Project.MyAppCanvasTest.canvas
+  id: canvas
+  parent: ASE_Assignment_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: canvas
+  nameWithType: MyAppCanvasTest.canvas
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.canvas
+  type: Field
+  source:
+    remote:
+      path: ASE_Sumit_Kasula_77356748/ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SUMITKASULA.git
+    id: canvas
+    path: ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+    startLine: 20
+  assemblies:
+  - ASE-Assignment-Test-Project
+  namespace: ASE_Assignment_Test_Project
+  summary: The canvas instance used for testing.
+  example: []
+  syntax:
+    content: public AppCanvas canvas
+    return:
+      type: ASE_Sumit_Kasula_77356748.AppCanvas
+    content.vb: Public canvas As AppCanvas
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.SetUp
+  commentId: M:ASE_Assignment_Test_Project.MyAppCanvasTest.SetUp
+  id: SetUp
+  parent: ASE_Assignment_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: SetUp()
+  nameWithType: MyAppCanvasTest.SetUp()
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.SetUp()
+  type: Method
+  source:
+    remote:
+      path: ASE_Sumit_Kasula_77356748/ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SUMITKASULA.git
+    id: SetUp
+    path: ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+    startLine: 25
+  assemblies:
+  - ASE-Assignment-Test-Project
+  namespace: ASE_Assignment_Test_Project
+  summary: Initializes the canvas before each test.
+  example: []
+  syntax:
+    content: >-
+      [TestInitialize]
+
+      public void SetUp()
+    content.vb: >-
+      <TestInitialize>
+
+      Public Sub SetUp()
+  overload: ASE_Assignment_Test_Project.MyAppCanvasTest.SetUp*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestDefaultConstructor
+  commentId: M:ASE_Assignment_Test_Project.MyAppCanvasTest.TestDefaultConstructor
+  id: TestDefaultConstructor
+  parent: ASE_Assignment_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestDefaultConstructor()
+  nameWithType: MyAppCanvasTest.TestDefaultConstructor()
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestDefaultConstructor()
+  type: Method
+  source:
+    remote:
+      path: ASE_Sumit_Kasula_77356748/ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SUMITKASULA.git
+    id: TestDefaultConstructor
+    path: ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+    startLine: 34
+  assemblies:
+  - ASE-Assignment-Test-Project
+  namespace: ASE_Assignment_Test_Project
+  summary: Tests the default constructor of AppCanvas.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestDefaultConstructor()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestDefaultConstructor()
+  overload: ASE_Assignment_Test_Project.MyAppCanvasTest.TestDefaultConstructor*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestCustomCanvasSizeInitialization
+  commentId: M:ASE_Assignment_Test_Project.MyAppCanvasTest.TestCustomCanvasSizeInitialization
+  id: TestCustomCanvasSizeInitialization
+  parent: ASE_Assignment_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestCustomCanvasSizeInitialization()
+  nameWithType: MyAppCanvasTest.TestCustomCanvasSizeInitialization()
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestCustomCanvasSizeInitialization()
+  type: Method
+  source:
+    remote:
+      path: ASE_Sumit_Kasula_77356748/ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SUMITKASULA.git
+    id: TestCustomCanvasSizeInitialization
+    path: ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+    startLine: 51
+  assemblies:
+  - ASE-Assignment-Test-Project
+  namespace: ASE_Assignment_Test_Project
+  summary: Tests initializing the canvas with a custom size.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestCustomCanvasSizeInitialization()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestCustomCanvasSizeInitialization()
+  overload: ASE_Assignment_Test_Project.MyAppCanvasTest.TestCustomCanvasSizeInitialization*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestInvalidCanvasSize_ShouldThrowCanvasException
+  commentId: M:ASE_Assignment_Test_Project.MyAppCanvasTest.TestInvalidCanvasSize_ShouldThrowCanvasException
+  id: TestInvalidCanvasSize_ShouldThrowCanvasException
+  parent: ASE_Assignment_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestInvalidCanvasSize_ShouldThrowCanvasException()
+  nameWithType: MyAppCanvasTest.TestInvalidCanvasSize_ShouldThrowCanvasException()
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestInvalidCanvasSize_ShouldThrowCanvasException()
+  type: Method
+  source:
+    remote:
+      path: ASE_Sumit_Kasula_77356748/ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SUMITKASULA.git
+    id: TestInvalidCanvasSize_ShouldThrowCanvasException
+    path: ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+    startLine: 62
+  assemblies:
+  - ASE-Assignment-Test-Project
+  namespace: ASE_Assignment_Test_Project
+  summary: Tests that invalid canvas sizes throw a CanvasException.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestInvalidCanvasSize_ShouldThrowCanvasException()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestInvalidCanvasSize_ShouldThrowCanvasException()
+  overload: ASE_Assignment_Test_Project.MyAppCanvasTest.TestInvalidCanvasSize_ShouldThrowCanvasException*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenSizeValid
+  commentId: M:ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenSizeValid
+  id: TestSetPenSizeValid
+  parent: ASE_Assignment_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestSetPenSizeValid()
+  nameWithType: MyAppCanvasTest.TestSetPenSizeValid()
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenSizeValid()
+  type: Method
+  source:
+    remote:
+      path: ASE_Sumit_Kasula_77356748/ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SUMITKASULA.git
+    id: TestSetPenSizeValid
+    path: ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+    startLine: 72
+  assemblies:
+  - ASE-Assignment-Test-Project
+  namespace: ASE_Assignment_Test_Project
+  summary: Tests setting a valid pen size.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestSetPenSizeValid()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestSetPenSizeValid()
+  overload: ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenSizeValid*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenSizeInvalid
+  commentId: M:ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenSizeInvalid
+  id: TestSetPenSizeInvalid
+  parent: ASE_Assignment_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestSetPenSizeInvalid()
+  nameWithType: MyAppCanvasTest.TestSetPenSizeInvalid()
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenSizeInvalid()
+  type: Method
+  source:
+    remote:
+      path: ASE_Sumit_Kasula_77356748/ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SUMITKASULA.git
+    id: TestSetPenSizeInvalid
+    path: ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+    startLine: 82
+  assemblies:
+  - ASE-Assignment-Test-Project
+  namespace: ASE_Assignment_Test_Project
+  summary: Tests setting an invalid pen size and verifying defaults.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestSetPenSizeInvalid()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestSetPenSizeInvalid()
+  overload: ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenSizeInvalid*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenColorValid
+  commentId: M:ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenColorValid
+  id: TestSetPenColorValid
+  parent: ASE_Assignment_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestSetPenColorValid()
+  nameWithType: MyAppCanvasTest.TestSetPenColorValid()
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenColorValid()
+  type: Method
+  source:
+    remote:
+      path: ASE_Sumit_Kasula_77356748/ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SUMITKASULA.git
+    id: TestSetPenColorValid
+    path: ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+    startLine: 95
+  assemblies:
+  - ASE-Assignment-Test-Project
+  namespace: ASE_Assignment_Test_Project
+  summary: Tests setting a valid pen color.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestSetPenColorValid()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestSetPenColorValid()
+  overload: ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenColorValid*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenPositionValid
+  commentId: M:ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenPositionValid
+  id: TestSetPenPositionValid
+  parent: ASE_Assignment_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestSetPenPositionValid()
+  nameWithType: MyAppCanvasTest.TestSetPenPositionValid()
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenPositionValid()
+  type: Method
+  source:
+    remote:
+      path: ASE_Sumit_Kasula_77356748/ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SUMITKASULA.git
+    id: TestSetPenPositionValid
+    path: ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+    startLine: 105
+  assemblies:
+  - ASE-Assignment-Test-Project
+  namespace: ASE_Assignment_Test_Project
+  summary: Tests setting a valid pen position.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestSetPenPositionValid()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestSetPenPositionValid()
+  overload: ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenPositionValid*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenPositionInvalid
+  commentId: M:ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenPositionInvalid
+  id: TestSetPenPositionInvalid
+  parent: ASE_Assignment_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestSetPenPositionInvalid()
+  nameWithType: MyAppCanvasTest.TestSetPenPositionInvalid()
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenPositionInvalid()
+  type: Method
+  source:
+    remote:
+      path: ASE_Sumit_Kasula_77356748/ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SUMITKASULA.git
+    id: TestSetPenPositionInvalid
+    path: ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+    startLine: 117
+  assemblies:
+  - ASE-Assignment-Test-Project
+  namespace: ASE_Assignment_Test_Project
+  summary: Tests setting an invalid pen position and verifies defaults.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestSetPenPositionInvalid()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestSetPenPositionInvalid()
+  overload: ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenPositionInvalid*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestBoundaryPenPosition
+  commentId: M:ASE_Assignment_Test_Project.MyAppCanvasTest.TestBoundaryPenPosition
+  id: TestBoundaryPenPosition
+  parent: ASE_Assignment_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestBoundaryPenPosition()
+  nameWithType: MyAppCanvasTest.TestBoundaryPenPosition()
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestBoundaryPenPosition()
+  type: Method
+  source:
+    remote:
+      path: ASE_Sumit_Kasula_77356748/ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SUMITKASULA.git
+    id: TestBoundaryPenPosition
+    path: ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+    startLine: 130
+  assemblies:
+  - ASE-Assignment-Test-Project
+  namespace: ASE_Assignment_Test_Project
+  summary: Tests boundary checks for pen positions.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestBoundaryPenPosition()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestBoundaryPenPosition()
+  overload: ASE_Assignment_Test_Project.MyAppCanvasTest.TestBoundaryPenPosition*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestDrawCircleValid
+  commentId: M:ASE_Assignment_Test_Project.MyAppCanvasTest.TestDrawCircleValid
+  id: TestDrawCircleValid
+  parent: ASE_Assignment_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestDrawCircleValid()
+  nameWithType: MyAppCanvasTest.TestDrawCircleValid()
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestDrawCircleValid()
+  type: Method
+  source:
+    remote:
+      path: ASE_Sumit_Kasula_77356748/ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SUMITKASULA.git
+    id: TestDrawCircleValid
+    path: ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+    startLine: 143
+  assemblies:
+  - ASE-Assignment-Test-Project
+  namespace: ASE_Assignment_Test_Project
+  summary: Tests drawing a circle with valid parameters.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestDrawCircleValid()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestDrawCircleValid()
+  overload: ASE_Assignment_Test_Project.MyAppCanvasTest.TestDrawCircleValid*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestDrawCircleInvalidRadius
+  commentId: M:ASE_Assignment_Test_Project.MyAppCanvasTest.TestDrawCircleInvalidRadius
+  id: TestDrawCircleInvalidRadius
+  parent: ASE_Assignment_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestDrawCircleInvalidRadius()
+  nameWithType: MyAppCanvasTest.TestDrawCircleInvalidRadius()
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestDrawCircleInvalidRadius()
+  type: Method
+  source:
+    remote:
+      path: ASE_Sumit_Kasula_77356748/ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SUMITKASULA.git
+    id: TestDrawCircleInvalidRadius
+    path: ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+    startLine: 154
+  assemblies:
+  - ASE-Assignment-Test-Project
+  namespace: ASE_Assignment_Test_Project
+  summary: Tests that drawing a circle with an invalid radius throws an exception.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestDrawCircleInvalidRadius()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestDrawCircleInvalidRadius()
+  overload: ASE_Assignment_Test_Project.MyAppCanvasTest.TestDrawCircleInvalidRadius*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestToggleShapeFilling
+  commentId: M:ASE_Assignment_Test_Project.MyAppCanvasTest.TestToggleShapeFilling
+  id: TestToggleShapeFilling
+  parent: ASE_Assignment_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestToggleShapeFilling()
+  nameWithType: MyAppCanvasTest.TestToggleShapeFilling()
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestToggleShapeFilling()
+  type: Method
+  source:
+    remote:
+      path: ASE_Sumit_Kasula_77356748/ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SUMITKASULA.git
+    id: TestToggleShapeFilling
+    path: ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+    startLine: 163
+  assemblies:
+  - ASE-Assignment-Test-Project
+  namespace: ASE_Assignment_Test_Project
+  summary: Tests toggling shape filling property.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestToggleShapeFilling()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestToggleShapeFilling()
+  overload: ASE_Assignment_Test_Project.MyAppCanvasTest.TestToggleShapeFilling*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestExceedMaximumCanvasSize
+  commentId: M:ASE_Assignment_Test_Project.MyAppCanvasTest.TestExceedMaximumCanvasSize
+  id: TestExceedMaximumCanvasSize
+  parent: ASE_Assignment_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestExceedMaximumCanvasSize()
+  nameWithType: MyAppCanvasTest.TestExceedMaximumCanvasSize()
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestExceedMaximumCanvasSize()
+  type: Method
+  source:
+    remote:
+      path: ASE_Sumit_Kasula_77356748/ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SUMITKASULA.git
+    id: TestExceedMaximumCanvasSize
+    path: ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+    startLine: 176
+  assemblies:
+  - ASE-Assignment-Test-Project
+  namespace: ASE_Assignment_Test_Project
+  summary: Tests exceeding maximum canvas size throws an exception.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CanvasException))]
+
+      public void TestExceedMaximumCanvasSize()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CanvasException))>
+
+      Public Sub TestExceedMaximumCanvasSize()
+  overload: ASE_Assignment_Test_Project.MyAppCanvasTest.TestExceedMaximumCanvasSize*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CanvasException
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestResetCanvas
+  commentId: M:ASE_Assignment_Test_Project.MyAppCanvasTest.TestResetCanvas
+  id: TestResetCanvas
+  parent: ASE_Assignment_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestResetCanvas()
+  nameWithType: MyAppCanvasTest.TestResetCanvas()
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestResetCanvas()
+  type: Method
+  source:
+    remote:
+      path: ASE_Sumit_Kasula_77356748/ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SUMITKASULA.git
+    id: TestResetCanvas
+    path: ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+    startLine: 186
+  assemblies:
+  - ASE-Assignment-Test-Project
+  namespace: ASE_Assignment_Test_Project
+  summary: Tests resetting the canvas.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestResetCanvas()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestResetCanvas()
+  overload: ASE_Assignment_Test_Project.MyAppCanvasTest.TestResetCanvas*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestCircleExceedsCanvas
+  commentId: M:ASE_Assignment_Test_Project.MyAppCanvasTest.TestCircleExceedsCanvas
+  id: TestCircleExceedsCanvas
+  parent: ASE_Assignment_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: TestCircleExceedsCanvas()
+  nameWithType: MyAppCanvasTest.TestCircleExceedsCanvas()
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestCircleExceedsCanvas()
+  type: Method
+  source:
+    remote:
+      path: ASE_Sumit_Kasula_77356748/ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SUMITKASULA.git
+    id: TestCircleExceedsCanvas
+    path: ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+    startLine: 198
+  assemblies:
+  - ASE-Assignment-Test-Project
+  namespace: ASE_Assignment_Test_Project
+  summary: Tests drawing a circle that exceeds canvas size throws an exception.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CanvasException))]
+
+      public void TestCircleExceedsCanvas()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CanvasException))>
+
+      Public Sub TestCircleExceedsCanvas()
+  overload: ASE_Assignment_Test_Project.MyAppCanvasTest.TestCircleExceedsCanvas*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CanvasException
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid
+  commentId: M:ASE_Assignment_Test_Project.MyAppCanvasTest.SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid
+  id: SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid
+  parent: ASE_Assignment_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid()
+  nameWithType: MyAppCanvasTest.SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid()
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid()
+  type: Method
+  source:
+    remote:
+      path: ASE_Sumit_Kasula_77356748/ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SUMITKASULA.git
+    id: SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid
+    path: ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+    startLine: 209
+  assemblies:
+  - ASE-Assignment-Test-Project
+  namespace: ASE_Assignment_Test_Project
+  summary: Tests initializing canvas with valid bitmap and graphics context.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid()
+  overload: ASE_Assignment_Test_Project.MyAppCanvasTest.SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.DrawTo_ShouldThrowException_WhenGraphicsContextIsNull
+  commentId: M:ASE_Assignment_Test_Project.MyAppCanvasTest.DrawTo_ShouldThrowException_WhenGraphicsContextIsNull
+  id: DrawTo_ShouldThrowException_WhenGraphicsContextIsNull
+  parent: ASE_Assignment_Test_Project.MyAppCanvasTest
+  langs:
+  - csharp
+  - vb
+  name: DrawTo_ShouldThrowException_WhenGraphicsContextIsNull()
+  nameWithType: MyAppCanvasTest.DrawTo_ShouldThrowException_WhenGraphicsContextIsNull()
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.DrawTo_ShouldThrowException_WhenGraphicsContextIsNull()
+  type: Method
+  source:
+    remote:
+      path: ASE_Sumit_Kasula_77356748/ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-SUMITKASULA.git
+    id: DrawTo_ShouldThrowException_WhenGraphicsContextIsNull
+    path: ASE-Assignment-Test-Project/MyAppCanvasTest.cs
+    startLine: 221
+  assemblies:
+  - ASE-Assignment-Test-Project
+  namespace: ASE_Assignment_Test_Project
+  summary: Tests drawing with null graphics context throws an exception.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      [ExpectedException(typeof(CanvasException))]
+
+      public void DrawTo_ShouldThrowException_WhenGraphicsContextIsNull()
+    content.vb: >-
+      <TestMethod>
+
+      <ExpectedException(GetType(CanvasException))>
+
+      Public Sub DrawTo_ShouldThrowException_WhenGraphicsContextIsNull()
+  overload: ASE_Assignment_Test_Project.MyAppCanvasTest.DrawTo_ShouldThrowException_WhenGraphicsContextIsNull*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: BOOSE.CanvasException
+references:
+- uid: ASE_Assignment_Test_Project
+  commentId: N:ASE_Assignment_Test_Project
+  href: ASE_Assignment_Test_Project.html
+  name: ASE_Assignment_Test_Project
+  nameWithType: ASE_Assignment_Test_Project
+  fullName: ASE_Assignment_Test_Project
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ASE_Sumit_Kasula_77356748.AppCanvas
+  commentId: T:ASE_Sumit_Kasula_77356748.AppCanvas
+  parent: ASE_Sumit_Kasula_77356748
+  href: ASE_Sumit_Kasula_77356748.AppCanvas.html
+  name: AppCanvas
+  nameWithType: AppCanvas
+  fullName: ASE_Sumit_Kasula_77356748.AppCanvas
+- uid: ASE_Sumit_Kasula_77356748
+  commentId: N:ASE_Sumit_Kasula_77356748
+  href: ASE_Sumit_Kasula_77356748.html
+  name: ASE_Sumit_Kasula_77356748
+  nameWithType: ASE_Sumit_Kasula_77356748
+  fullName: ASE_Sumit_Kasula_77356748
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.SetUp*
+  commentId: Overload:ASE_Assignment_Test_Project.MyAppCanvasTest.SetUp
+  href: ASE_Assignment_Test_Project.MyAppCanvasTest.html#ASE_Assignment_Test_Project_MyAppCanvasTest_SetUp
+  name: SetUp
+  nameWithType: MyAppCanvasTest.SetUp
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.SetUp
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestDefaultConstructor*
+  commentId: Overload:ASE_Assignment_Test_Project.MyAppCanvasTest.TestDefaultConstructor
+  href: ASE_Assignment_Test_Project.MyAppCanvasTest.html#ASE_Assignment_Test_Project_MyAppCanvasTest_TestDefaultConstructor
+  name: TestDefaultConstructor
+  nameWithType: MyAppCanvasTest.TestDefaultConstructor
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestDefaultConstructor
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestCustomCanvasSizeInitialization*
+  commentId: Overload:ASE_Assignment_Test_Project.MyAppCanvasTest.TestCustomCanvasSizeInitialization
+  href: ASE_Assignment_Test_Project.MyAppCanvasTest.html#ASE_Assignment_Test_Project_MyAppCanvasTest_TestCustomCanvasSizeInitialization
+  name: TestCustomCanvasSizeInitialization
+  nameWithType: MyAppCanvasTest.TestCustomCanvasSizeInitialization
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestCustomCanvasSizeInitialization
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestInvalidCanvasSize_ShouldThrowCanvasException*
+  commentId: Overload:ASE_Assignment_Test_Project.MyAppCanvasTest.TestInvalidCanvasSize_ShouldThrowCanvasException
+  href: ASE_Assignment_Test_Project.MyAppCanvasTest.html#ASE_Assignment_Test_Project_MyAppCanvasTest_TestInvalidCanvasSize_ShouldThrowCanvasException
+  name: TestInvalidCanvasSize_ShouldThrowCanvasException
+  nameWithType: MyAppCanvasTest.TestInvalidCanvasSize_ShouldThrowCanvasException
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestInvalidCanvasSize_ShouldThrowCanvasException
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenSizeValid*
+  commentId: Overload:ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenSizeValid
+  href: ASE_Assignment_Test_Project.MyAppCanvasTest.html#ASE_Assignment_Test_Project_MyAppCanvasTest_TestSetPenSizeValid
+  name: TestSetPenSizeValid
+  nameWithType: MyAppCanvasTest.TestSetPenSizeValid
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenSizeValid
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenSizeInvalid*
+  commentId: Overload:ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenSizeInvalid
+  href: ASE_Assignment_Test_Project.MyAppCanvasTest.html#ASE_Assignment_Test_Project_MyAppCanvasTest_TestSetPenSizeInvalid
+  name: TestSetPenSizeInvalid
+  nameWithType: MyAppCanvasTest.TestSetPenSizeInvalid
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenSizeInvalid
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenColorValid*
+  commentId: Overload:ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenColorValid
+  href: ASE_Assignment_Test_Project.MyAppCanvasTest.html#ASE_Assignment_Test_Project_MyAppCanvasTest_TestSetPenColorValid
+  name: TestSetPenColorValid
+  nameWithType: MyAppCanvasTest.TestSetPenColorValid
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenColorValid
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenPositionValid*
+  commentId: Overload:ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenPositionValid
+  href: ASE_Assignment_Test_Project.MyAppCanvasTest.html#ASE_Assignment_Test_Project_MyAppCanvasTest_TestSetPenPositionValid
+  name: TestSetPenPositionValid
+  nameWithType: MyAppCanvasTest.TestSetPenPositionValid
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenPositionValid
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenPositionInvalid*
+  commentId: Overload:ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenPositionInvalid
+  href: ASE_Assignment_Test_Project.MyAppCanvasTest.html#ASE_Assignment_Test_Project_MyAppCanvasTest_TestSetPenPositionInvalid
+  name: TestSetPenPositionInvalid
+  nameWithType: MyAppCanvasTest.TestSetPenPositionInvalid
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestSetPenPositionInvalid
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestBoundaryPenPosition*
+  commentId: Overload:ASE_Assignment_Test_Project.MyAppCanvasTest.TestBoundaryPenPosition
+  href: ASE_Assignment_Test_Project.MyAppCanvasTest.html#ASE_Assignment_Test_Project_MyAppCanvasTest_TestBoundaryPenPosition
+  name: TestBoundaryPenPosition
+  nameWithType: MyAppCanvasTest.TestBoundaryPenPosition
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestBoundaryPenPosition
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestDrawCircleValid*
+  commentId: Overload:ASE_Assignment_Test_Project.MyAppCanvasTest.TestDrawCircleValid
+  href: ASE_Assignment_Test_Project.MyAppCanvasTest.html#ASE_Assignment_Test_Project_MyAppCanvasTest_TestDrawCircleValid
+  name: TestDrawCircleValid
+  nameWithType: MyAppCanvasTest.TestDrawCircleValid
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestDrawCircleValid
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestDrawCircleInvalidRadius*
+  commentId: Overload:ASE_Assignment_Test_Project.MyAppCanvasTest.TestDrawCircleInvalidRadius
+  href: ASE_Assignment_Test_Project.MyAppCanvasTest.html#ASE_Assignment_Test_Project_MyAppCanvasTest_TestDrawCircleInvalidRadius
+  name: TestDrawCircleInvalidRadius
+  nameWithType: MyAppCanvasTest.TestDrawCircleInvalidRadius
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestDrawCircleInvalidRadius
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestToggleShapeFilling*
+  commentId: Overload:ASE_Assignment_Test_Project.MyAppCanvasTest.TestToggleShapeFilling
+  href: ASE_Assignment_Test_Project.MyAppCanvasTest.html#ASE_Assignment_Test_Project_MyAppCanvasTest_TestToggleShapeFilling
+  name: TestToggleShapeFilling
+  nameWithType: MyAppCanvasTest.TestToggleShapeFilling
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestToggleShapeFilling
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestExceedMaximumCanvasSize*
+  commentId: Overload:ASE_Assignment_Test_Project.MyAppCanvasTest.TestExceedMaximumCanvasSize
+  href: ASE_Assignment_Test_Project.MyAppCanvasTest.html#ASE_Assignment_Test_Project_MyAppCanvasTest_TestExceedMaximumCanvasSize
+  name: TestExceedMaximumCanvasSize
+  nameWithType: MyAppCanvasTest.TestExceedMaximumCanvasSize
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestExceedMaximumCanvasSize
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestResetCanvas*
+  commentId: Overload:ASE_Assignment_Test_Project.MyAppCanvasTest.TestResetCanvas
+  href: ASE_Assignment_Test_Project.MyAppCanvasTest.html#ASE_Assignment_Test_Project_MyAppCanvasTest_TestResetCanvas
+  name: TestResetCanvas
+  nameWithType: MyAppCanvasTest.TestResetCanvas
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestResetCanvas
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.TestCircleExceedsCanvas*
+  commentId: Overload:ASE_Assignment_Test_Project.MyAppCanvasTest.TestCircleExceedsCanvas
+  href: ASE_Assignment_Test_Project.MyAppCanvasTest.html#ASE_Assignment_Test_Project_MyAppCanvasTest_TestCircleExceedsCanvas
+  name: TestCircleExceedsCanvas
+  nameWithType: MyAppCanvasTest.TestCircleExceedsCanvas
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.TestCircleExceedsCanvas
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid*
+  commentId: Overload:ASE_Assignment_Test_Project.MyAppCanvasTest.SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid
+  href: ASE_Assignment_Test_Project.MyAppCanvasTest.html#ASE_Assignment_Test_Project_MyAppCanvasTest_SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid
+  name: SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid
+  nameWithType: MyAppCanvasTest.SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.SetCanvas_ShouldInitialize_WhenBitmapAndGraphicsAreValid
+- uid: ASE_Assignment_Test_Project.MyAppCanvasTest.DrawTo_ShouldThrowException_WhenGraphicsContextIsNull*
+  commentId: Overload:ASE_Assignment_Test_Project.MyAppCanvasTest.DrawTo_ShouldThrowException_WhenGraphicsContextIsNull
+  href: ASE_Assignment_Test_Project.MyAppCanvasTest.html#ASE_Assignment_Test_Project_MyAppCanvasTest_DrawTo_ShouldThrowException_WhenGraphicsContextIsNull
+  name: DrawTo_ShouldThrowException_WhenGraphicsContextIsNull
+  nameWithType: MyAppCanvasTest.DrawTo_ShouldThrowException_WhenGraphicsContextIsNull
+  fullName: ASE_Assignment_Test_Project.MyAppCanvasTest.DrawTo_ShouldThrowException_WhenGraphicsContextIsNull
